@@ -211,10 +211,12 @@ ul {
 }
 
 .feature {
-  width: 33.333%;
+  width: 100%;
   display: flex;
   gap: 16px;
   padding: 24px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .feature__icon {
@@ -259,10 +261,11 @@ ul {
   align-items: center;
   justify-content: space-between;
   gap: 60px;
+  width: 100%;
 }
 
 .quality__text {
-  width: 50%;
+  width: 100%;
 }
 
 .quality__title {
@@ -290,7 +293,7 @@ ul {
 }
 
 .quality__img {
-  width: 50%;
+  width: 100%;
 }
 
 .quality__img img {
@@ -675,6 +678,7 @@ ul {
   display: flex;
   align-items: center;
   gap: 70px;
+  flex-direction: column;
 }
 
 .testimonials__img {
@@ -853,8 +857,7 @@ cta::before {
   padding: 80px 0 50px;
   position: relative;
   overflow: hidden;
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
+  width: 100%;
 }
 
 .footer__links {
@@ -1137,6 +1140,7 @@ cta::before {
   /* HERO */
   .hero {
     padding-top: 40px;
+    flex-direction: column;
   }
 
   .hero h1 {
